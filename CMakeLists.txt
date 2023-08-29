@@ -9,6 +9,11 @@ find_package(OpenGL REQUIRED)
 #        GLUT::GLUT
 #        GLEW::GLEW
 #)
+
+if (APPLE)
+    include_directories(/opt/homebrew/include)
+endif (APPLE)
+
 add_executable(VigilGameCpp src/main.cpp
         src/Renderer.cpp
         src/Renderer.h
@@ -22,6 +27,14 @@ add_custom_target(copy_resources ALL
 
 add_dependencies(VigilGameCpp copy_resources)
 
+#if(UNIX AND NOT APPLE)
+#    set(LINUX TRUE)
+#endif()
+#if (LINUX)
 target_link_libraries(VigilGameCpp GL GLU glut GLEW glfw X11 Xxf86vm Xrandr pthread Xi dl)
+#endif (LINUX)
+#if (APPLE)
+#    target_link_libraries(VigilGameCpp glfw3 "-framework IOKit" "-framework Cocoa" "-framework OpenGL")
+#endif (APPLE)
 
 add_definitions(-DGLEW_STATIC)
