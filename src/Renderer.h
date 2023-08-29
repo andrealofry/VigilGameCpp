@@ -1,14 +1,13 @@
-//
-// Created by andrea on 28/08/23.
-//
+#pragma once
 
-#ifndef VIGILGAMECPP_RENDERER_H
-#define VIGILGAMECPP_RENDERER_H
+#include <GL/glew.h>
+#include "debugbreak.h"
 
 
-class Renderer {
+#define ASSERT(x) if(!(x)) debug_break();
+#define GLCall(x) GLClearError(); \
+    x;                            \
+    ASSERT(GLLogCall(#x, __FILE__, __LINE__))
 
-};
-
-
-#endif //VIGILGAMECPP_RENDERER_H
+void GLClearError();
+bool GLLogCall(const char* function, const char* file, int line);

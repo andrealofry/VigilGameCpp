@@ -17,7 +17,16 @@ endif (APPLE)
 add_executable(VigilGameCpp src/main.cpp
         src/Renderer.cpp
         src/Renderer.h
-        src/debugbreak.h)
+        src/debugbreak.h
+        src/VertexBuffer.cpp
+        src/VertexBuffer.h
+        src/IndexBuffer.cpp
+        src/IndexBuffer.h
+        src/VertexArray.cpp
+        src/VertexArray.h
+        src/VertexBufferLayout.h
+        src/Shader.h
+        src/Shader.cpp)
 
 add_custom_target(copy_resources ALL
         COMMAND ${CMAKE_COMMAND} -E copy_directory

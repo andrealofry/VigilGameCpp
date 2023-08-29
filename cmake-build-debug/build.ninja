@@ -63,6 +63,34 @@ build CMakeFiles/VigilGameCpp.dir/src/Renderer.cpp.o: CXX_COMPILER__VigilGameCpp
   OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
   OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src
 
+build CMakeFiles/VigilGameCpp.dir/src/VertexBuffer.cpp.o: CXX_COMPILER__VigilGameCpp_unscanned_Debug /home/andrea/VigilGameCpp/src/VertexBuffer.cpp || cmake_object_order_depends_target_VigilGameCpp
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles/VigilGameCpp.dir/src/VertexBuffer.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src
+
+build CMakeFiles/VigilGameCpp.dir/src/IndexBuffer.cpp.o: CXX_COMPILER__VigilGameCpp_unscanned_Debug /home/andrea/VigilGameCpp/src/IndexBuffer.cpp || cmake_object_order_depends_target_VigilGameCpp
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles/VigilGameCpp.dir/src/IndexBuffer.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src
+
+build CMakeFiles/VigilGameCpp.dir/src/VertexArray.cpp.o: CXX_COMPILER__VigilGameCpp_unscanned_Debug /home/andrea/VigilGameCpp/src/VertexArray.cpp || cmake_object_order_depends_target_VigilGameCpp
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles/VigilGameCpp.dir/src/VertexArray.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src
+
+build CMakeFiles/VigilGameCpp.dir/src/Shader.cpp.o: CXX_COMPILER__VigilGameCpp_unscanned_Debug /home/andrea/VigilGameCpp/src/Shader.cpp || cmake_object_order_depends_target_VigilGameCpp
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles/VigilGameCpp.dir/src/Shader.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target VigilGameCpp
@@ -71,7 +99,7 @@ build CMakeFiles/VigilGameCpp.dir/src/Renderer.cpp.o: CXX_COMPILER__VigilGameCpp
 #############################################
 # Link the executable VigilGameCpp
 
-build VigilGameCpp: CXX_EXECUTABLE_LINKER__VigilGameCpp_Debug CMakeFiles/VigilGameCpp.dir/src/main.cpp.o CMakeFiles/VigilGameCpp.dir/src/Renderer.cpp.o || copy_resources
+build VigilGameCpp: CXX_EXECUTABLE_LINKER__VigilGameCpp_Debug CMakeFiles/VigilGameCpp.dir/src/main.cpp.o CMakeFiles/VigilGameCpp.dir/src/Renderer.cpp.o CMakeFiles/VigilGameCpp.dir/src/VertexBuffer.cpp.o CMakeFiles/VigilGameCpp.dir/src/IndexBuffer.cpp.o CMakeFiles/VigilGameCpp.dir/src/VertexArray.cpp.o CMakeFiles/VigilGameCpp.dir/src/Shader.cpp.o || copy_resources
   FLAGS = -g
   LINK_LIBRARIES = -lGL  -lGLU  -lglut  -lGLEW  -lglfw  -lX11  -lXxf86vm  -lXrandr  -lpthread  -lXi  -ldl
   OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
