@@ -41,14 +41,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "VigilGameCpp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-VigilGameCpp-Debug-7f0439fb0f4f4d1e2ce7.json",
+					"jsonFile" : "target-VigilGameCpp-Debug-060163a33d75b803cece.json",
 					"name" : "VigilGameCpp",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "copy_resources::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-copy_resources-Debug-a98c55f173020c6f9bd9.json",
+					"jsonFile" : "target-copy_resources-Debug-9ba0f7ef6010dfa35c0b.json",
 					"name" : "copy_resources",
 					"projectIndex" : 0
 				}

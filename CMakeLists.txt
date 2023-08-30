@@ -26,7 +26,11 @@ add_executable(VigilGameCpp src/main.cpp
         src/VertexArray.h
         src/VertexBufferLayout.h
         src/Shader.h
-        src/Shader.cpp)
+        src/Shader.cpp
+        src/vendor/stb_image/stb_image.h
+        src/vendor/stb_image/stb_image.cpp
+        src/Texture.cpp
+        src/Texture.h)
 
 add_custom_target(copy_resources ALL
         COMMAND ${CMAKE_COMMAND} -E copy_directory
