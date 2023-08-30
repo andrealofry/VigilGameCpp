@@ -94,16 +94,55 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/IndexBuffer.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/IndexBuffer.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/Renderer.cpp">
 			<Option target="VigilGameCpp"/>
 		</Unit>
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/Renderer.h">
 			<Option target="VigilGameCpp"/>
 		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/Shader.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/Shader.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/Texture.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/Texture.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/VertexArray.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/VertexArray.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/VertexBuffer.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/VertexBuffer.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/VertexBufferLayout.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/debugbreak.h">
 			<Option target="VigilGameCpp"/>
 		</Unit>
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/main.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/stb_image/stb_image.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/stb_image/stb_image.h">
 			<Option target="VigilGameCpp"/>
 		</Unit>
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/CMakeLists.txt">
