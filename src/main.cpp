@@ -12,6 +12,8 @@
 #include "Shader.h"
 #include "Texture.h"
 
+#include "vendor/glm/glm.hpp"
+#include "vendor/glm/gtc/matrix_transform.hpp"
 
 int main(void)
 {
@@ -21,9 +23,13 @@ int main(void)
     if (!glfwInit())
         return -1;
 
-    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR,3);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+    /*glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR,3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR,3);
-    glfwWindowHint(GLFW_OPENGL_PROFILE,GLFW_OPENGL_CORE_PROFILE );
+    glfwWindowHint(GLFW_OPENGL_PROFILE,GLFW_OPENGL_CORE_PROFILE );*/
 
     /* Create a windowed mode window and its OpenGL context */
     window = glfwCreateWindow(640, 480, "VigilGame", NULL, NULL);
@@ -71,12 +77,16 @@ int main(void)
 
         IndexBuffer ib(indices, 6);
 
+        glm::mat4 proj = glm::ortho(-3.0f, 3.0f, -4.0f, 4.0f, -1.0f, 1.0f);
 
         Shader shader("res/shaders/Basic.shader");
+        shader.Bind();
+        shader.SetUniformMat4f("u_MVP", proj);
 
         Texture texture("res/textures/fire.png");
         texture.Bind();
         shader.SetUniform1i("u_Texture", 0);
+
 
         va.Unbind();
         shader.Unbind();
