@@ -47,7 +47,13 @@ add_executable(VigilGameCpp src/main.cpp
         src/vendor/imgui/imstb_textedit.h
         src/vendor/imgui/imstb_truetype.h
         src/vendor/imgui/imgui_impl_opengl3.cpp
-        src/vendor/imgui/imgui_impl_opengl3.h)
+        src/vendor/imgui/imgui_impl_opengl3.h
+        src/test/Test.h
+        src/test/TestClearColor.cpp
+        src/test/TestClearColor.h
+        src/test/Test.cpp
+        src/test/TestTexture2D.cpp
+        src/test/TestTexture2D.h)
 
 add_custom_target(copy_resources ALL
         COMMAND ${CMAKE_COMMAND} -E copy_directory
