@@ -139,6 +139,51 @@
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/main.cpp">
 			<Option target="VigilGameCpp"/>
 		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imconfig.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imgui.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imgui.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imgui_demo.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imgui_draw.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imgui_impl_glfw.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imgui_impl_glfw.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imgui_impl_opengl3.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imgui_impl_opengl3.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imgui_internal.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imgui_tables.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imgui_widgets.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imstb_rectpack.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imstb_textedit.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imstb_truetype.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/stb_image/stb_image.cpp">
 			<Option target="VigilGameCpp"/>
 		</Unit>
