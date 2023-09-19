@@ -19,6 +19,7 @@
 
 #include "test/TestClearColor.h"
 #include "test/TestTexture2D.h"
+#include "test/TestCircle.h"
 
 int main(void)
 {
@@ -37,7 +38,7 @@ int main(void)
     glfwWindowHint(GLFW_OPENGL_PROFILE,GLFW_OPENGL_CORE_PROFILE );*/
 
     /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(960, 540, "VigilGame", NULL, NULL);
+    window = glfwCreateWindow(1024, 768, "VigilGame", NULL, NULL);
     if (!window)
     {
         glfwTerminate();
@@ -72,6 +73,7 @@ int main(void)
 
         testMenu->RegisterTest<test::TestClearColor>("Clear Color");
         testMenu->RegisterTest<test::TestTexture2D>("Texture 2D");
+        testMenu->RegisterTest<test::TestCircle>("Circle Circle");
         //test::TestClearColor test;
 
         while (!glfwWindowShouldClose(window)) {

@@ -139,6 +139,30 @@
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/main.cpp">
 			<Option target="VigilGameCpp"/>
 		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/Test.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/Test.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestCircle.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestCircle.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestClearColor.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestClearColor.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestTexture2D.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestTexture2D.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/vendor/imgui/imconfig.h">
 			<Option target="VigilGameCpp"/>
 		</Unit>

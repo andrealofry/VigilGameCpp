@@ -5,9 +5,11 @@
 namespace test {
 
     TestClearColor::TestClearColor()
-        : m_ClearColor(1.0f, 1.0f, 1.0f, 1.0f)
     {
-
+        m_ClearColor[0] = 1.0f;
+        m_ClearColor[1] = 1.0f;
+        m_ClearColor[2] = 1.0f;
+        m_ClearColor[3] = 1.0f;
     }
 
     TestClearColor::~TestClearColor() {
