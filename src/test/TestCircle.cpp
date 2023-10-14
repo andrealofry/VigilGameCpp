@@ -38,12 +38,14 @@ namespace test {
         m_VAO = std::make_unique<VertexArray>();
 
         m_VertexBuffer = std::make_unique<VertexBuffer>(vertices, m_Definition * 2 * sizeof(float));
+        delete[] vertices;
 
         VertexBufferLayout layout;
         layout.Push(GL_FLOAT, 2);
 
         m_VAO->AddBuffer(*m_VertexBuffer, layout);
         m_IndexBuffer = std::make_unique<IndexBuffer>(indices, (m_Definition-2) * 3);
+        delete[] indices;
 
         m_Shader = std::make_unique<Shader>("res/shaders/Circle.shader");
         m_Shader->Bind();
