@@ -10,11 +10,9 @@
 namespace test {
 
 
-    TestCircle::TestCircle():
+    TestCircle::TestCircle() :
             m_Proj(glm::ortho(-200.0f, 200.0f, -150.0f, 150.0f, -1.0f, 1.0f)),
-            m_View(glm::translate(glm::mat4(1.0f), glm::vec3(0, 0, 0))),
-            m_Translation(0, 0, 0),
-            m_Radius(20),
+            m_View(glm::translate(glm::mat4(1.0f), glm::vec3(0, 0, 0))), m_Translation(0, 0, 0), m_Radius(20),
             m_Definition(30)
     {
 

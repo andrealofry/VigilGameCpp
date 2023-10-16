@@ -3,6 +3,7 @@
 #include "vendor/imgui/imgui_impl_opengl3.h"
 #include <GL/glew.h>
 #include <GLFW/glfw3.h>
+#include "InputKeyboard.h"
 #include <iostream>
 
 #include "Renderer.h"
@@ -20,6 +21,7 @@
 #include "test/TestClearColor.h"
 #include "test/TestTexture2D.h"
 #include "test/TestCircle.h"
+#include "test/TestInput.h"
 
 int main(void)
 {
@@ -55,6 +57,9 @@ int main(void)
         std::cout << "Error!" << std::endl;
 
     std::cout << glGetString(GL_VERSION) << std::endl;
+
+    //InputKeyboard::init(window);
+
     {
 
         GLCall(glEnable(GL_BLEND))
@@ -74,7 +79,11 @@ int main(void)
         testMenu->RegisterTest<test::TestClearColor>("Clear Color");
         testMenu->RegisterTest<test::TestTexture2D>("Texture 2D");
         testMenu->RegisterTest<test::TestCircle>("Circle Circle");
+        testMenu->RegisterTest<test::TestInput>("Input Keyboard");
         //test::TestClearColor test;
+
+        InputKeyboard::init(window);
+
 
         while (!glfwWindowShouldClose(window)) {
             GLCall(glClearColor(0.0f, 0.0f, 0.0f, 1.0f));

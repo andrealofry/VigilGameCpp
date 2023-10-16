@@ -100,6 +100,12 @@
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/IndexBuffer.h">
 			<Option target="VigilGameCpp"/>
 		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/InputKeyboard.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/InputKeyboard.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/Renderer.cpp">
 			<Option target="VigilGameCpp"/>
 		</Unit>
@@ -155,6 +161,18 @@
 			<Option target="VigilGameCpp"/>
 		</Unit>
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestClearColor.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestGame.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestGame.h">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestInput.cpp">
+			<Option target="VigilGameCpp"/>
+		</Unit>
+		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestInput.h">
 			<Option target="VigilGameCpp"/>
 		</Unit>
 		<Unit filename="/Users/lofry/Documents/VigilGameCpp/src/test/TestTexture2D.cpp">

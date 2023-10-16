@@ -55,7 +55,14 @@ add_executable(VigilGameCpp src/main.cpp
         src/test/TestTexture2D.cpp
         src/test/TestTexture2D.h
         src/test/TestCircle.cpp
-        src/test/TestCircle.h)
+        src/test/TestCircle.h
+        src/test/TestInput.cpp
+        src/test/TestInput.h
+        src/InputKeyboard.cpp
+        src/InputKeyboard.h
+        src/test/TestGame.cpp
+        src/test/TestGame.h
+)
 
 add_custom_target(copy_resources ALL
         COMMAND ${CMAKE_COMMAND} -E copy_directory
