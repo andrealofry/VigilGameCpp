@@ -62,6 +62,13 @@ add_executable(VigilGameCpp src/main.cpp
         src/InputKeyboard.h
         src/test/TestGame.cpp
         src/test/TestGame.h
+        src/game/LevelOne.cpp
+        src/game/LevelOne.h
+        src/game/Game.cpp
+        src/game/Game.h
+        src/game/Player.cpp
+        src/game/Player.h
+        src/game/LevelOne.cpp
 )
 
 add_custom_target(copy_resources ALL

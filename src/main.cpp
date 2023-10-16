@@ -22,6 +22,7 @@
 #include "test/TestTexture2D.h"
 #include "test/TestCircle.h"
 #include "test/TestInput.h"
+#include "test/TestGame.h"
 
 int main(void)
 {
@@ -80,10 +81,12 @@ int main(void)
         testMenu->RegisterTest<test::TestTexture2D>("Texture 2D");
         testMenu->RegisterTest<test::TestCircle>("Circle Circle");
         testMenu->RegisterTest<test::TestInput>("Input Keyboard");
+        testMenu->RegisterTest<test::TestGame>("Game");
         //test::TestClearColor test;
 
         InputKeyboard::init(window);
 
+        double currentFrame, deltaTime, lastFrame = 0;
 
         while (!glfwWindowShouldClose(window)) {
             GLCall(glClearColor(0.0f, 0.0f, 0.0f, 1.0f));
@@ -95,7 +98,11 @@ int main(void)
 
             if (currentTest)
             {
-                currentTest->OnUpdate(0.0f);
+                currentFrame = glfwGetTime();
+                deltaTime = currentFrame - lastFrame;
+                lastFrame = currentFrame;
+
+                currentTest->OnUpdate(static_cast<float>(deltaTime));
                 currentTest->OnRender();
                 ImGui::Begin("Test");
                 if(currentTest != testMenu && ImGui::Button("<-"))

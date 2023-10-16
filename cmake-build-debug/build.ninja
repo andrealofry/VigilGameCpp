@@ -182,6 +182,48 @@ build CMakeFiles/VigilGameCpp.dir/src/test/TestCircle.cpp.o: CXX_COMPILER__Vigil
   OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
   OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src/test
 
+build CMakeFiles/VigilGameCpp.dir/src/test/TestInput.cpp.o: CXX_COMPILER__VigilGameCpp_unscanned_Debug /home/andrea/VigilGameCpp/src/test/TestInput.cpp || cmake_object_order_depends_target_VigilGameCpp
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles/VigilGameCpp.dir/src/test/TestInput.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src/test
+
+build CMakeFiles/VigilGameCpp.dir/src/InputKeyboard.cpp.o: CXX_COMPILER__VigilGameCpp_unscanned_Debug /home/andrea/VigilGameCpp/src/InputKeyboard.cpp || cmake_object_order_depends_target_VigilGameCpp
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles/VigilGameCpp.dir/src/InputKeyboard.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src
+
+build CMakeFiles/VigilGameCpp.dir/src/test/TestGame.cpp.o: CXX_COMPILER__VigilGameCpp_unscanned_Debug /home/andrea/VigilGameCpp/src/test/TestGame.cpp || cmake_object_order_depends_target_VigilGameCpp
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles/VigilGameCpp.dir/src/test/TestGame.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src/test
+
+build CMakeFiles/VigilGameCpp.dir/src/game/LevelOne.cpp.o: CXX_COMPILER__VigilGameCpp_unscanned_Debug /home/andrea/VigilGameCpp/src/game/LevelOne.cpp || cmake_object_order_depends_target_VigilGameCpp
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles/VigilGameCpp.dir/src/game/LevelOne.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src/game
+
+build CMakeFiles/VigilGameCpp.dir/src/game/Game.cpp.o: CXX_COMPILER__VigilGameCpp_unscanned_Debug /home/andrea/VigilGameCpp/src/game/Game.cpp || cmake_object_order_depends_target_VigilGameCpp
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles/VigilGameCpp.dir/src/game/Game.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src/game
+
+build CMakeFiles/VigilGameCpp.dir/src/game/Player.cpp.o: CXX_COMPILER__VigilGameCpp_unscanned_Debug /home/andrea/VigilGameCpp/src/game/Player.cpp || cmake_object_order_depends_target_VigilGameCpp
+  DEFINES = -DGLEW_STATIC
+  DEP_FILE = CMakeFiles/VigilGameCpp.dir/src/game/Player.cpp.o.d
+  FLAGS = -g -std=gnu++23 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
+  OBJECT_FILE_DIR = CMakeFiles/VigilGameCpp.dir/src/game
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target VigilGameCpp
@@ -190,7 +232,7 @@ build CMakeFiles/VigilGameCpp.dir/src/test/TestCircle.cpp.o: CXX_COMPILER__Vigil
 #############################################
 # Link the executable VigilGameCpp
 
-build VigilGameCpp: CXX_EXECUTABLE_LINKER__VigilGameCpp_Debug CMakeFiles/VigilGameCpp.dir/src/main.cpp.o CMakeFiles/VigilGameCpp.dir/src/Renderer.cpp.o CMakeFiles/VigilGameCpp.dir/src/VertexBuffer.cpp.o CMakeFiles/VigilGameCpp.dir/src/IndexBuffer.cpp.o CMakeFiles/VigilGameCpp.dir/src/VertexArray.cpp.o CMakeFiles/VigilGameCpp.dir/src/Shader.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/stb_image/stb_image.cpp.o CMakeFiles/VigilGameCpp.dir/src/Texture.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_demo.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_draw.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_impl_glfw.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_tables.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_widgets.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.o CMakeFiles/VigilGameCpp.dir/src/test/TestClearColor.cpp.o CMakeFiles/VigilGameCpp.dir/src/test/Test.cpp.o CMakeFiles/VigilGameCpp.dir/src/test/TestTexture2D.cpp.o CMakeFiles/VigilGameCpp.dir/src/test/TestCircle.cpp.o || copy_resources
+build VigilGameCpp: CXX_EXECUTABLE_LINKER__VigilGameCpp_Debug CMakeFiles/VigilGameCpp.dir/src/main.cpp.o CMakeFiles/VigilGameCpp.dir/src/Renderer.cpp.o CMakeFiles/VigilGameCpp.dir/src/VertexBuffer.cpp.o CMakeFiles/VigilGameCpp.dir/src/IndexBuffer.cpp.o CMakeFiles/VigilGameCpp.dir/src/VertexArray.cpp.o CMakeFiles/VigilGameCpp.dir/src/Shader.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/stb_image/stb_image.cpp.o CMakeFiles/VigilGameCpp.dir/src/Texture.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_demo.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_draw.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_impl_glfw.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_tables.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_widgets.cpp.o CMakeFiles/VigilGameCpp.dir/src/vendor/imgui/imgui_impl_opengl3.cpp.o CMakeFiles/VigilGameCpp.dir/src/test/TestClearColor.cpp.o CMakeFiles/VigilGameCpp.dir/src/test/Test.cpp.o CMakeFiles/VigilGameCpp.dir/src/test/TestTexture2D.cpp.o CMakeFiles/VigilGameCpp.dir/src/test/TestCircle.cpp.o CMakeFiles/VigilGameCpp.dir/src/test/TestInput.cpp.o CMakeFiles/VigilGameCpp.dir/src/InputKeyboard.cpp.o CMakeFiles/VigilGameCpp.dir/src/test/TestGame.cpp.o CMakeFiles/VigilGameCpp.dir/src/game/LevelOne.cpp.o CMakeFiles/VigilGameCpp.dir/src/game/Game.cpp.o CMakeFiles/VigilGameCpp.dir/src/game/Player.cpp.o || copy_resources
   FLAGS = -g
   LINK_LIBRARIES = -lGL  -lGLU  -lglut  -lGLEW  -lglfw  -lX11  -lXxf86vm  -lXrandr  -lpthread  -lXi  -ldl
   OBJECT_DIR = CMakeFiles/VigilGameCpp.dir
